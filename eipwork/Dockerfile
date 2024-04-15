@@ -1,0 +1,2 @@
+FROM eipwork/kuboard:v3.5.2.6
+LABEL MAINTAINER=654195925@qq.com BUILDTYPE=Aliyun
