@@ -1,0 +1,2 @@
+FROM tdengine/tdengine:3.3.3.0
+LABEL MAINTAINER=654195925@qq.com BUILDTYPE=Aliyun
