@@ -1,5 +1,6 @@
 name: multifactor
 channels:
+  - cctbx202008 
   - anaconda
   - conda-forge
   - defaults

@@ -1,6 +1,6 @@
 # 使用官方的Anaconda3镜像作为基础镜像
 # FROM continuumio/anaconda3:latest
-FROM registry.cn-hangzhou.aliyuncs.com/curried/anaconda3:2020.11
+FROM registry.cn-hangzhou.aliyuncs.com/curried/anaconda3:2020.02
 
 # 设置国内pip源
 # RUN pip config --user set global.index https://mirrors.huaweicloud.com/repository/pypi; \
