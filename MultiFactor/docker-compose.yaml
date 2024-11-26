@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  xyd-multifactor:
+    build:
+      context: .
+      dockerfile: Dockerfile 
+    container_name: xyd-multifactor_dev
+    volumes:
+      - ./workspace:/app/workspace 
+    ports:
+      - "8888:8888"  # 如果需要运行Jupyter Notebook等Web服务，请映射相应的端口
+    tty: true  # 保持TTY会话打开，以便交互式使用
+    stdin_open: true  # 保持标准输入打开
+    environment:
+      - CONDA_DEFAULT_ENV=MultiFactor  # 设置默认Conda环境（如果之前未在Dockerfile中激活）
+      # 可以添加其他环境变量...
+
+# 网络和其他配置（如果需要）...
