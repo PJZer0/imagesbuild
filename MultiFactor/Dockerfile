@@ -16,7 +16,7 @@ WORKDIR /MultiFactor
 # # 克隆MultiFactor项目
 # RUN git clone https://github.com/etccapital/MultiFactor.git
 # 提前下载
-COPY MultiFactor /app/MultiFactor
+COPY _MultiFactor /app/MultiFactor
 
 # 切换到MultiFactor项目目录
 WORKDIR /app/MultiFactor
