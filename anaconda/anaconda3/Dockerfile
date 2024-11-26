@@ -1,2 +1,2 @@
-FROM continuumio/anaconda3:2020.11
+FROM continuumio/anaconda3:2020.02
 LABEL MAINTAINER=654195925@qq.com BUILDTYPE=Aliyun
