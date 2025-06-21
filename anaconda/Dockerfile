@@ -1,2 +1,0 @@
-FROM python:3.10-slim
-LABEL MAINTAINER=654195925@qq.com BUILDTYPE=Aliyun

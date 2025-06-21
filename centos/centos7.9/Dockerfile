@@ -1,0 +1,2 @@
+FROM centos:centos7.9.2009
+LABEL MAINTAINER=654195925@qq.com BUILDTYPE=Aliyun
